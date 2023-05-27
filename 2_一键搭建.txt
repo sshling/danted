@@ -1,0 +1,11 @@
+﻿阿里云 
+一键搭建 
+第一步输入  sudo su root   获取root权限  复制按回车
+第二部下载环境需要的东西         
+ wget –no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -Oinstall.sh
+复制按回车
+第三部输入           bash install.sh --port=5555 --user=5555 --passwd=5555        复制按回车
+                           建议端口取值：10000-65535之间
+       注释：         （bash install.sh --port=端口 --user=账号 --passwd=密码）
+
+
